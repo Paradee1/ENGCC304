@@ -13,6 +13,7 @@ int isPrime(int num) {
 
 int main() {
   int n ;
+  
   printf( "Enter N : " ) ;
   scanf( "%d" , &n ) ;
   int arr[n] ;
@@ -27,10 +28,12 @@ int main() {
   printf( "\n" ) ;
   printf( "Array:  " ) ;
   for( int i = 0 ; i < n ; i++ ) {
-    if ( isPrime(arr[i]))
+    if ( isPrime(arr[i])) {
       printf( "%2d " , arr[i] ) ; 
-    else 
-      printf( "%2s " , "#" ) ; 
+      } //end if
+    else {
+      printf( "%2s " , "#" ) ;
+      } //end else
       } //end for
   printf( "\n" ) ;
   return 0 ;

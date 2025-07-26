@@ -18,7 +18,7 @@ int main() {
 
     printf( "Expected Output: \n" ) ;
     printf( "Employees ID = %s \n" , id ) ;
-    printf( "Salary = U$%10.2f \n" , salary ) ;
+    printf( "Salary = U$ %10.2f \n" , salary ) ;
 
     return 0 ;
 }  // end main

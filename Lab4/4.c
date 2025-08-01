@@ -3,8 +3,8 @@
 
 int main() {
     char id[10] ;
-    int work ;
-    int amount ;
+    int  work ;
+    int  amount ;
     float salary ;
 
     printf( "Input the Employees ID(Max. 10 chars): \n" ) ;
